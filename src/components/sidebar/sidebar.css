@@ -1,0 +1,139 @@
+.aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: var(--body-color);
+  border-right: 2px solid rgba(121, 151, 228, 0.5);
+  padding: 2.5rem;
+  width: 10rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-bold);
+  border-bottom: 5px solid var(--first-color);
+  border-top: 5px solid var(--body-color);
+  border-radius: 50%;
+}
+.nav__logo:hover {
+  border-top: 5px solid var(--first-color);
+  border-bottom: 5px solid var(--body-color);
+}
+
+.nav__logo span {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.nav__logo p {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+}
+.nav__menu {
+  text-align: center;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: hsl(43, 100%, 68%);
+}
+
+.nav__link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav__link .tooltip-text {
+  visibility: hidden;
+  background-color: var(--first-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  top: -5px;
+  left: 110%;
+  font-size: 1rem;
+  font-weight: var(--font-medium);
+  margin-left: 5px;
+}
+
+.nav__link .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent var(--first-color) transparent transparent;
+}
+.nav__link:hover .tooltip-text {
+  visibility: visible;
+}
+
+.copyright {
+  color: hsl(245, 15%, 65%);
+  font-size: var(--small-font-size);
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  background-color: var(--body-color);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: 0.3s;
+}
+.nav__toggle:hover {
+  border: 1px solid #e8dfec;
+}
+
+@media screen and (max-width: 1024px) {
+  .aside {
+    left: -10rem;
+  }
+  .nav__toggle {
+    display: flex;
+  }
+  .nav__toggle-open {
+    left: 10rem;
+  }
+  .show-menu {
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__toggle {
+    display: none;
+  }
+}
