@@ -20,17 +20,17 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everything
         </span>
-        <span className="work__item" onClick={() => filterItem("MERN")}>
-          MERN
+        <span className="work__item" onClick={() => filterItem("JavaScript")}>
+          JavaScript
         </span>
         <span className="work__item" onClick={() => filterItem("PHP")}>
           PHP
         </span>
+        <span className="work__item" onClick={() => filterItem("MERN")}>
+          MERN
+        </span>
         <span className="work__item" onClick={() => filterItem("Java")}>
           Java
-        </span>
-        <span className="work__item" onClick={() => filterItem("C#")}>
-          C#
         </span>
       </div>
 
@@ -40,7 +40,13 @@ const Portfolio = () => {
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img"></img>
+                <img
+                  src={image}
+                  alt=""
+                  className="work__img"
+                  width="100%"
+                  height="100%"
+                ></img>
                 <div className="work__mask"></div>
               </div>
 

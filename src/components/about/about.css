@@ -48,11 +48,7 @@
 
 .skills_number {
   line-height: 1.2;
-  /* color: red; */
-  /* background-color: white; */
   font-size: 16px;
-  /* height: 30px; */
-  /* width: 30px; */
 }
 .skills_number i {
   fill: white;

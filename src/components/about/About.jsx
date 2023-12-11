@@ -12,6 +12,7 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
 
       <div className="about__container grid">
+        {/* <img src={Image} alt="" className="about__img" /> */}
         <img src={Me} alt="" className="about__img" />
 
         <div className="about__data grid">
@@ -24,7 +25,11 @@ const About = () => {
               problem-solving abilities, and passion for innovation to
               contribute to the success in a dynamic world of Technology.
             </p>
-            <a href="" className="btn">
+            <a
+              href={require("../../Resume/PrashilAryal-CV.pdf")}
+              download="PrashilAryal-CV"
+              className="btn"
+            >
               Download CV
             </a>
           </div>

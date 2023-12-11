@@ -29,7 +29,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "Comfortable",
     title: "Languages & Scripts",
-    desc: "PHP, JavaScript, Java, HTML5, CSS3C, C++, C#",
+    desc: "PHP, JavaScript, Java, HTML5, CSS3, C, C++, C#",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "Comfortable",
     title: "Database",
-    desc: "MySQL, PostgreSQL, SQL Server, phpMyAdmin",
+    desc: "MySQL, PostgreSQL, SQL Server",
   },
   {
     id: 6,

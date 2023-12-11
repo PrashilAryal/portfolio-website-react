@@ -27,6 +27,10 @@
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }
+.work__img {
+  object-fit: fill;
+  aspect-ratio: 1;
+}
 
 .work__mask {
   background: #6c6ce5;
