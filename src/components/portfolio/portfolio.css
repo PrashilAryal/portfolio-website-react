@@ -28,7 +28,7 @@
   box-shadow: var(--shadow);
 }
 .work__img {
-  object-fit: fill;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 

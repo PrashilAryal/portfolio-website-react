@@ -2,7 +2,6 @@ import HockeyGame from "../../assets/hockeygame.png";
 import SpaceInvaderGame from "../../assets/spaceinvader.png";
 import SpaceInvader from "../../assets/spaceinvader1.png";
 import Reciperise from "../../assets/reciperise.png";
-import Work3 from "../../assets/work-3.svg";
 import MyFarm from "../../assets/myfarm.png";
 import WeatherApp from "../../assets/weatherapp.png";
 import ExpenseTracker from "../../assets/expensetracker.png";
