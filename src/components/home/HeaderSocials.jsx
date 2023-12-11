@@ -11,7 +11,7 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-github"></i>
       </a>
       <a
-        href="https://www/linkedin.com/"
+        href="https://www.linkedin.com/in/prashil-aryal-a24908199/"
         className="home__social-link"
         target="_blank"
       >
@@ -25,14 +25,14 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-google"></i>
       </a>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/unalome_mbo/"
         className="home__social-link"
         target="_blank"
       >
         <i className="fa-brands fa-instagram"></i>
       </a>
       <a
-        href="https://www/facebook.com/"
+        href="https://www.facebook.com/prashil.aryal"
         className="home__social-link"
         target="_blank"
       >
